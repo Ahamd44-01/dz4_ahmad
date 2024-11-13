@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse movie</title>
+    <script src="app.js"></script>
+</head>
+<style>
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #trackingBox {
+      width: 500px;
+      height: 500px;
+      border: 2px solid black;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5em;
+    }
+    
+    #coordinates {
+      color: #333;
+    }
+  </style>
+
+<body>
+    <div id="trackingBox">
+        <span id="coordinates">A: 0, B: 0</span>
+      </div>
+</body>
+</html>
